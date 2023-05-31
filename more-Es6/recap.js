@@ -20,4 +20,14 @@ const elementHTML=`
 </div>
 
 `
+//4.Arrow function
+const doubleIt=x=>x*2;
+const calculateSalary2=(salary,tax,bonus)=>salary-salary*tax+bonus;
 
+//5.spread
+const ages=[11,13,15,14,10];
+const newAges=[...ages,22,24,23];
+
+//destructuring
+const{x,y,z,...c}={x:45,  y:12, z:33, Name:'sakib al hasan', salary:4500,}
+const [a,b,...r]=[12,45,21,65,98]
