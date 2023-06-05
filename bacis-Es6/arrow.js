@@ -8,6 +8,7 @@ const add1=function add1(first,second){
     const total=first+second;
     return total;
 }
+
 //function expression with anonymous function
 const add2=function(first,second){
     const total=first+second;

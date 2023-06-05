@@ -23,3 +23,9 @@ const summary='sum of: ' + a + ' and ' + b + ' is '+(a+b);
 const newSummary=`sum of ${a} and ${nums.length} is :${a+b}`;
 console.log(newSummary);
 
+
+const d=80;
+const e=90;
+const total=`tot of ${d} and ${e} is :${d+e}`
+console.log(total);
+
